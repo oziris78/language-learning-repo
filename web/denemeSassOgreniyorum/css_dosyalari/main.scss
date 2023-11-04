@@ -1,0 +1,37 @@
+@import "globals";
+@use 'sass:math';
+
+$x : abs(-20px);
+
+@mixin fonk {
+    color: red;
+    @content;
+}
+
+.ppp{
+    display: inline-block;
+    color:red;
+    width: $x;
+    border: 1px red solid;
+}
+
+h3{
+    color: $mavi;
+
+
+    span{
+        color:yellow;
+        @include fonk{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+h1{
+    color: $mavi;
+}
+
+h2{
+    color: $mavi;
+}

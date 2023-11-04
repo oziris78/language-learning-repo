@@ -1,0 +1,27 @@
+@use 'sass:math';
+.ppp {
+  display: inline-block;
+  color: red;
+  width: 20px;
+  border: 1px red solid;
+}
+
+h3 {
+  color: #b830ca;
+}
+
+h3 span {
+  color: yellow;
+  color: red;
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  color: #b830ca;
+}
+
+h2 {
+  color: #b830ca;
+}
+/*# sourceMappingURL=main.css.map */
