@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+
+group 'com.twistral'
+version '0.0.1'
+
+def mainClass = 'com.twistral.Main'
+
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls' , 'javafx.fxml', 'javafx.media', 'javafx.web', 'javafx.swing' ]
+}
+
+dependencies {
+    implementation 'org.jfxtras:jmetro:11.6.14'
+    implementation group: 'com.dustinredmond.fxtrayicon', name: 'FXTrayIcon', version: '3.0.1'
+    implementation 'io.github.palexdev:materialfx:11.12.0'
+}
+
+application{
+    mainClassName(mainClass)
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes 'Main-Class': mainClass
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
