@@ -1,0 +1,14 @@
+
+1- press F4
+2- artifacts  >  jar  >  +  >  from modules with dependencies
+
+3-
+<All Modules>
+choose your main class
+choose "extract to target JAR" for "JAR files from libraries"
+IN "DIRECTORY FOR META-INF" DELETE "\java" AT THE END (it should be "...\main")
+
+4- click the plus icon and choose "DIRECTORY CONTENT"
+and then add "main\resources" folder
+
+5- now build your artifact with the menubar and you're done

@@ -1,0 +1,131 @@
+
+panMain:
+
+btnQuit
+btnNewGame
+btnLoadGame
+btnSettings
+btnCredits
+lbAppTitle
+lbVersion
+
+
+----------------
+
+panCredits:
+
+lbCredits
+lbVersion2
+btnToMain
+
+----------------
+
+panNewGame:
+
+rbtnTekin
+rbtnAyca
+rbtnEasy
+rbtnMedium
+rbtnHard
+rbtnUltra
+rbtnKnight
+rbtnArcher
+rbtnAssassin
+rbtnSwordsman
+rbtnSlot1
+rbtnSlot2
+rbtnSlot3
+tfSaveName
+lbCharacterImage
+lbSelectCharacter
+lbSelectClass
+lbSelectDifficulty
+lbSelectSaveName
+lbSelectSaveSlot
+btnToMain2
+lbVersion3
+btnStartTheGame
+
+----------------
+
+
+
+----
+Vurdu_armoredChainedCorpse - 11
+Vurdu_slime - 12
+Vurdu_skeleton - 13
+Vurdu_chainedCorpse - 14
+Vurdu_armoredSkeleton - 15
+Vurdu_mummy - 16
+Vurdu_inenormisAranea - 17
+Vurdu_veneficusAranea - 18
+Vurdu_parilisAranea - 19
+Vurdu_phoenix - 20
+Vurdu_cerberus - 21
+Vurdu_hellSpider - 22
+Vurdu_fireOrb - 23
+Vurdu_darkOrb - 24
+Vurdu_iceOrb - 25
+Vurdu_blueSlime - 26
+Vurdu_eunectes - 27
+Vurdu_theraphoseBlondi - 28
+Vurdu_yek - 29
+Vurdu_theTenebrosity - 30
+
+
+Vuruldu_slime - 31
+Vuruldu_armoredChainedCorpse - 32
+Vuruldu_skeleton - 33
+Vuruldu_chainedCorpse - 34
+Vuruldu_armoredSkeleton - 35
+Vuruldu_mummy - 36
+Vuruldu_inenormisAranea - 37
+Vuruldu_veneficusAranea - 38
+Vuruldu_parilisAranea - 39
+Vuruldu_phoenix - 40
+Vuruldu_cerberus - 41
+Vuruldu_hellSpider - 42
+Vuruldu_fireOrb - 43
+Vuruldu_darkOrb - 44
+Vuruldu_iceOrb - 45
+Vuruldu_blueSlime - 46
+Vuruldu_eunectes - 47
+Vuruldu_theraphoseBlondi - 48
+Vuruldu_yek - 49
+Vuruldu_theTenebrosity - 50
+
+
+Öldü_slime - 51
+Öldü_armoredChainedCorpse - 52
+Öldü_skeleton - 53
+Öldü_chainedCorpse - 54
+Öldü_armoredSkeleton - 55
+Öldü_mummy - 56
+Öldü_inenormisAranea - 57
+Öldü_veneficusAranea - 58
+Öldü_parilisAranea - 59
+Öldü_phoenix - 60
+Öldü_cerberus - 61
+Öldü_hellSpider - 62
+Öldü_fireOrb - 63
+Öldü_darkOrb - 64
+Öldü_iceOrb - 65
+Öldü_blueSlime - 66
+Öldü_eunectes - 67
+Öldü_theraphoseBlondi - 68
+Öldü_yek - 69
+Öldü_theTenebrosity - 70
+-------
+
+VurusKacirildi_101
+MeleeHit_103
+MeleeHitCrit_104
+RangedHit_105
+RangedHitCrit_106
+
+--
+
+clipAycaOldu 1004
+clipTekinOldu 1001
+ clipAycaVuruldu 1002
+clipTekinVuruldu 1003

@@ -1,0 +1,27 @@
+
+plugins {
+    id 'java'
+}
+
+group 'com.twistral'
+version '1.0.0'
+
+java{
+    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {}
+
+
+jar {
+    manifest {
+        attributes "Main-Class": 'com.twistral.main.Main';
+    }
+    dependsOn ('dependencies')
+}
