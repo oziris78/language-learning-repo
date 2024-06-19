@@ -2,6 +2,7 @@ package com.twistral.lwjgl3;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
+import com.twistral.conwaysgameoflife.MyTESTmain;
 import com.twistral.physicssim.PhysicsSimMain;
 
 
@@ -24,7 +25,7 @@ public class Lwjgl3Launcher {
 
 		configuration.setWindowedMode(640, 480);
 		configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");
-		new Lwjgl3Application(new PhysicsSimMain(), configuration);
+		new Lwjgl3Application(new MyTESTmain(), configuration);
 	}
 
 }
